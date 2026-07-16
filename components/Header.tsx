@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -11,6 +12,7 @@ export function Header() {
         <button aria-label="Open menu" onClick={() => setOpen(!open)} className="absolute left-4 flex h-8 w-8 flex-col justify-center gap-1.5 md:left-6">
           <span className="block h-px w-4 bg-black" /><span className="block h-px w-4 bg-black" /><span className="block h-px w-4 bg-black" />
         </button>
+        <Link href="/" className="flex items-center" aria-label="RRUSH home"><Image src="/assets/rrush-wordmark.svg" alt="rrush" width={124} height={30} priority className="h-auto w-[92px] md:w-[112px]" /></Link>
         <Link href="/" className="wordmark text-[22px] leading-none md:text-2xl" aria-label="RRUSH home">RRUSH</Link>
         <div className="absolute right-4 md:right-6" aria-label="Cart"><svg width="21" height="22" viewBox="0 0 21 22" fill="none"><path d="M6.2 7.3V5.8a4.3 4.3 0 0 1 8.6 0v1.5" stroke="currentColor" strokeWidth="1"/><path d="M4.3 7.3h12.4l1.1 12.2H3.2L4.3 7.3Z" stroke="currentColor" strokeWidth="1"/></svg></div>
       </div>
