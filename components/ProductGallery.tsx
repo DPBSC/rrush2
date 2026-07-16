@@ -8,9 +8,9 @@ const images = [
 ];
 
 export function ProductGallery() {
-  return <section className="mx-auto w-full max-w-[470px] space-y-4 md:max-w-[520px]">
+  return <section className="mx-auto w-full max-w-[min(100%,clamp(21rem,38vw,36rem))] space-y-[clamp(1rem,1.8vw,1.75rem)]">
     {images.map((image, i) => <div key={image.src} className="product-frame fade-in flex aspect-[4/5] items-center justify-center" style={{ animationDelay: `${i * 80}ms` }}>
-      <Image src={image.src} alt={image.alt} width={760} height={950} priority={i === 0} className="h-full w-full object-contain p-8 md:p-12" />
+      <Image src={image.src} alt={image.alt} width={760} height={950} priority={i === 0} className="h-full w-full object-contain p-[clamp(1.25rem,3vw,3.25rem)]" />
     </div>)}
   </section>;
 }

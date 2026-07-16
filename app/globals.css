@@ -4,11 +4,15 @@
 
 :root { --black:#0D0D0D; --off:#F7F5F2; --charcoal:#4D4D4D; --navy:#1C2533; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; text-size-adjust: 100%; }
 body { margin:0; background:var(--off); color:var(--black); font-family: Inter, Arial, sans-serif; letter-spacing:-0.01em; }
 button { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+img, svg { max-width: 100%; }
 ::selection { background: var(--black); color: var(--off); }
 .wordmark { font-family: Arial Black, Helvetica, sans-serif; font-style: italic; letter-spacing: -0.075em; transform: skew(-8deg); }
 .product-frame { background: #f1efec; }
 .fade-in { animation: fadeIn .7s ease both; }
+.cart-badge { animation: cartBadgeRefine 260ms ease-out both; }
 @keyframes fadeIn { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
+@keyframes cartBadgeRefine { from { opacity:.72; transform: translate(35%, -35%) scale(.92); } to { opacity:1; transform: translate(35%, -35%) scale(1); } }
