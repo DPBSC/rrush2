@@ -15,6 +15,8 @@ export function Header() {
         </button>
         <Link href="/" className="absolute left-1/2 flex -translate-x-1/2 items-center" aria-label="RRUSH home"><Image src="/assets/rrush-wordmark.svg" alt="rrush" width={124} height={30} priority className="h-auto w-[clamp(5.75rem,7vw,7.75rem)]" /></Link>
         <div className="absolute right-[clamp(1rem,2.5vw,2.5rem)]"><CartIcon /></div>
+        <Link href="/" className="flex items-center" aria-label="RRUSH home"><Image src="/assets/rrush-wordmark.svg" alt="rrush" width={124} height={30} priority className="h-auto w-[92px] md:w-[112px]" /></Link>
+        <div className="absolute right-4 md:right-6"><CartIcon /></div>
       </div>
       <nav className={`overflow-hidden border-t border-black/10 bg-[#F7F5F2] transition-[max-height,opacity] duration-300 ease-out ${open ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="mx-auto flex max-w-[1920px] flex-col px-[clamp(1.5rem,3vw,3rem)] py-6 text-[clamp(0.72rem,0.78vw,0.84rem)] uppercase tracking-[0.16em]">
