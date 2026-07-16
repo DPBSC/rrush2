@@ -53,7 +53,12 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!hydrated) return;
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    } catch {
+      // Keep the cart working in memory when browser storage is unavailable.
+    }
   }, [hydrated, items]);
 
   const addItem = useCallback((product: CartProduct) => {
