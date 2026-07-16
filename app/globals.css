@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { --black:#0D0D0D; --off:#F7F5F2; --charcoal:#4D4D4D; --navy:#1C2533; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; background:var(--off); color:var(--black); font-family: Inter, Arial, sans-serif; letter-spacing:-0.01em; }
+button { font: inherit; }
+::selection { background: var(--black); color: var(--off); }
+.wordmark { font-family: Arial Black, Helvetica, sans-serif; font-style: italic; letter-spacing: -0.075em; transform: skew(-8deg); }
+.product-frame { background: #f1efec; }
+.fade-in { animation: fadeIn .7s ease both; }
+@keyframes fadeIn { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
