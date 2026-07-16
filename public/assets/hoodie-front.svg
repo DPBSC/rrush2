@@ -1,1 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 950"><rect width="760" height="950" fill="#f1efec"/><path d="M279 246c30-22 172-22 202 0l39 63 71 63-60 92 9 330H220l9-330-60-92 71-63z" fill="#0d0d0d"/><path d="M305 235c18 70 132 70 150 0 6 34-5 93-75 96-70-3-81-62-75-96z" fill="#1b1b1b"/><path d="M319 267c27 38 95 38 122 0" fill="none" stroke="#4d4d4d" stroke-width="6"/><text x="433" y="395" fill="#f7f5f2" font-size="25" font-family="Arial Black" font-style="italic" letter-spacing="-3">RRUSH</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1434 1167" role="img" aria-labelledby="title desc">
+  <title id="title">RRUSH heavyweight hoodie front</title>
+  <desc id="desc">Front flat-lay view of a black RRUSH pullover hoodie with white chest logo on a light studio background.</desc>
+  <defs>
+    <radialGradient id="studio" cx="50%" cy="43%" r="72%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f6f5f3"/>
+      <stop offset="1" stop-color="#ecebea"/>
+    </radialGradient>
+    <linearGradient id="fabric" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#242424"/>
+      <stop offset="0.45" stop-color="#111111"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="fabricDark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="rib" x1="0" x2="1">
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset="0.5" stop-color="#2a2a2a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+    <filter id="softTexture" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="grain"/>
+      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <rect width="1434" height="1167" fill="url(#studio)"/>
+  <ellipse cx="720" cy="1010" rx="560" ry="58" fill="#000" opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <path d="M245 1016c-47-11-92-26-131-45 16-155 73-338 167-548 27-61 73-113 132-143l114-58 50 82-72 71c-46 45-79 100-98 162L245 1016Z" fill="url(#fabricDark)"/>
+    <path d="M1189 1016c47-11 92-26 131-45-16-155-73-338-167-548-27-61-73-113-132-143l-114-58-50 82 72 71c46 45 79 100 98 162l162 479Z" fill="url(#fabricDark)"/>
+
+    <path d="M409 341c73-58 170-89 308-89s235 31 308 89c38 218 59 438 64 660-222 44-521 44-744 0 5-222 26-442 64-660Z" fill="url(#fabric)" filter="url(#softTexture)"/>
+
+    <path d="M565 987h304c67 0 139 5 216 14l-9 53c-226 35-493 35-718 0l-9-53c77-9 149-14 216-14Z" fill="url(#rib)"/>
+    <g opacity="0.2" stroke="#f2f2f2" stroke-width="1">
+      <path d="M384 1010h672M386 1024h668M391 1038h658"/>
+      <path d="M409 1001v57M428 999v61M447 997v63M466 995v66M485 993v68M504 991v70M523 990v72M542 989v73M561 988v75M580 988v75M599 987v76M618 987v77M637 987v77M656 987v77M675 987v77M694 987v77M713 987v77M732 987v77M751 987v77M770 987v77M789 987v77M808 987v76M827 988v75M846 988v75M865 989v73M884 990v72M903 991v70M922 993v68M941 995v66M960 997v63M979 999v61M998 1001v57"/>
+    </g>
+
+    <path d="M556 188c43-81 100-131 161-150 61 19 118 69 161 150 25 46 36 102 33 170-118-28-270-28-388 0-3-68 8-124 33-170Z" fill="url(#fabric)"/>
+    <path d="M548 297c101-27 237-27 338 0 25 7 31 38 11 55-41 35-319 35-360 0-20-17-14-48 11-55Z" fill="#0b0b0b"/>
+    <path d="M589 324c75 78 181 78 256 0 4 77-42 131-128 133-86-2-132-56-128-133Z" fill="#141414"/>
+    <path d="M717 41v378" fill="none" stroke="#070707" stroke-width="5" opacity="0.75"/>
+    <path d="M553 205c-38 58-52 110-48 154M881 205c38 58 52 110 48 154" fill="none" stroke="#343434" stroke-width="3" opacity="0.55"/>
+
+    <path d="M406 352c34 23 69 38 105 45M1028 352c-34 23-69 38-105 45" fill="none" stroke="#060606" stroke-width="6" opacity="0.45"/>
+    <path d="M494 750h446l52 165c-169 17-381 17-550 0l52-165Z" fill="#151515" stroke="#080808" stroke-width="6"/>
+    <path d="M494 750l-52 165M940 750l52 165" fill="none" stroke="#333" stroke-width="3" opacity="0.55"/>
+
+    <g transform="translate(836 489) skewX(-10)">
+      <text x="0" y="0" fill="#f8f8f8" font-size="41" font-family="Arial Black, Arial, sans-serif" font-style="italic" letter-spacing="-5">rrush</text>
+    </g>
+
+    <path d="M112 971c31 20 76 36 133 45l-21 48c-62-8-111-23-145-46l33-47ZM1322 971c-31 20-76 36-133 45l21 48c62-8 111-23 145-46l-33-47Z" fill="url(#rib)"/>
+    <path d="M343 328c-52 120-93 239-122 357M1091 328c52 120 93 239 122 357" fill="none" stroke="#303030" stroke-width="4" opacity="0.5"/>
+  </g>
+</svg>
