@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root { --black:#0D0D0D; --off:#F7F5F2; --charcoal:#4D4D4D; --navy:#1C2533; }
 * { box-sizing: border-box; }
