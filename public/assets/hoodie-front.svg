@@ -1,1 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 950"><rect width="760" height="950" fill="#f1efec"/><path d="M279 246c30-22 172-22 202 0l39 63 71 63-60 92 9 330H220l9-330-60-92 71-63z" fill="#0d0d0d"/><path d="M305 235c18 70 132 70 150 0 6 34-5 93-75 96-70-3-81-62-75-96z" fill="#1b1b1b"/><path d="M319 267c27 38 95 38 122 0" fill="none" stroke="#4d4d4d" stroke-width="6"/><text x="433" y="395" fill="#f7f5f2" font-size="25" font-family="Arial Black" font-style="italic" letter-spacing="-3">RRUSH</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">RRUSH heavyweight hoodie front</title>
+  <desc id="desc">Front product image of a black RRUSH pullover hoodie with the white rrush logo on the chest.</desc>
+  <defs>
+    <linearGradient id="body" x1="350" y1="250" x2="1180" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252727"/>
+      <stop offset="0.46" stop-color="#111313"/>
+      <stop offset="1" stop-color="#202121"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="500" y1="300" x2="1050" y2="870" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2121"/>
+      <stop offset="0.5" stop-color="#111212"/>
+      <stop offset="1" stop-color="#1b1c1c"/>
+    </linearGradient>
+    <linearGradient id="sleeveLeft" x1="230" y1="360" x2="520" y2="950" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252727"/>
+      <stop offset="0.55" stop-color="#121414"/>
+      <stop offset="1" stop-color="#242525"/>
+    </linearGradient>
+    <linearGradient id="sleeveRight" x1="1290" y1="360" x2="1015" y2="950" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#252727"/>
+      <stop offset="0.55" stop-color="#121414"/>
+      <stop offset="1" stop-color="#242525"/>
+    </linearGradient>
+    <linearGradient id="rib" x1="410" y1="890" x2="1130" y2="955" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101111"/>
+      <stop offset="0.45" stop-color="#2a2b2b"/>
+      <stop offset="1" stop-color="#0b0c0c"/>
+    </linearGradient>
+    <radialGradient id="hoodHighlight" cx="50%" cy="36%" r="60%">
+      <stop offset="0" stop-color="#2a2b2b"/>
+      <stop offset="0.58" stop-color="#151616"/>
+      <stop offset="1" stop-color="#090a0a"/>
+    </radialGradient>
+    <filter id="softShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="fabricTexture" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="8" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 0 0.12 0 0 0 .18 0" result="grain"/>
+      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M488 304c-78 40-129 104-165 188L247 673c-28 70-51 139-66 206l88 31 94-181 67-205 82-107Z" fill="url(#sleeveLeft)" filter="url(#fabricTexture)"/>
+    <path d="M1048 304c78 40 129 104 165 188l76 181c28 70 51 139 66 206l-88 31-94-181-67-205-82-107Z" fill="url(#sleeveRight)" filter="url(#fabricTexture)"/>
+
+    <path d="M489 321c72-51 167-77 279-77s207 26 279 77c41 155 66 348 72 579-210 45-492 45-702 0 6-231 31-424 72-579Z" fill="url(#body)" filter="url(#fabricTexture)"/>
+
+    <path d="M430 880c206 34 470 34 676 0l13 54c-215 42-487 42-702 0Z" fill="url(#rib)"/>
+    <g opacity="0.18" stroke="#f5f5f5" stroke-width="1">
+      <path d="M443 897h650M448 911h640M456 925h624"/>
+      <path d="M460 889v53M486 893v55M512 897v55M538 900v56M564 903v57M590 906v58M616 908v58M642 910v59M668 912v59M694 913v60M720 914v60M746 914v61M772 914v61M798 914v61M824 913v60M850 912v59M876 910v59M902 908v58M928 906v58M954 903v57M980 900v56M1006 897v55M1032 893v55M1058 889v53"/>
+    </g>
+
+    <path d="M583 157c46-72 108-116 185-136 77 20 139 64 185 136 35 55 48 126 41 206-134-40-318-40-452 0-7-80 6-151 41-206Z" fill="url(#hoodHighlight)" filter="url(#fabricTexture)"/>
+    <path d="M552 306c130-37 302-37 432 0 16 5 25 22 21 39-18 72-456 72-474 0-4-17 5-34 21-39Z" fill="#0b0c0c"/>
+    <path d="M613 326c90 91 220 91 310 0 7 91-52 145-155 149-103-4-162-58-155-149Z" fill="#181919"/>
+    <path d="M768 23v371" fill="none" stroke="#060707" stroke-width="5" opacity="0.82"/>
+    <path d="M604 177c-35 52-51 109-49 171M932 177c35 52 51 109 49 171" fill="none" stroke="#343636" stroke-width="3" opacity="0.56"/>
+
+    <path d="M503 345c33 24 70 42 111 54M1033 345c-33 24-70 42-111 54" fill="none" stroke="#070808" stroke-width="8" opacity="0.46"/>
+    <path d="M616 675h304l48 159c-122 19-278 19-400 0Z" fill="#151717" stroke="#090a0a" stroke-width="5"/>
+    <path d="M616 675l-48 159M920 675l48 159" fill="none" stroke="#303232" stroke-width="3" opacity="0.62"/>
+    <path d="M625 666c91-7 195-7 286 0" fill="none" stroke="#2a2c2c" stroke-width="4" opacity="0.55"/>
+
+    <g transform="translate(876 429) skewX(-10)">
+      <text x="0" y="0" fill="#f8f8f8" stroke="#e8e8e8" stroke-width="0.4" font-size="38" font-family="Arial Black, Arial, sans-serif" font-style="italic" letter-spacing="-5">rrush</text>
+    </g>
+
+    <path d="M181 879c22 17 53 28 88 31l-24 52c-35-4-66-14-92-30Z" fill="#171818"/>
+    <path d="M1355 879c-22 17-53 28-88 31l24 52c35-4 66-14 92-30Z" fill="#171818"/>
+    <path d="M265 907l-18 50M1271 907l18 50" fill="none" stroke="#303131" stroke-width="2" opacity="0.45"/>
+  </g>
+</svg>
